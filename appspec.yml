@@ -19,3 +19,8 @@ hooks:
     - location: scripts/asg.sh
       timeout: 300
       runas: root
+  AfterBlockTraffic:
+    - location: scripts/oldasg.sh
+      timeout: 300
+      runas: root
+       
