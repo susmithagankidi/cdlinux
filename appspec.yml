@@ -20,7 +20,7 @@ hooks:
       timeout: 300
       runas: root
   BeforeBlockTraffic:
-    - location: scripts/sleeptime.sh
+    - location: scripts/sleepfile.sh
       timeout: 300
       runas: root
   AfterBlockTraffic:
