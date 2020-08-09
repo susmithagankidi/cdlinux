@@ -15,16 +15,16 @@ hooks:
     - location: scripts/stop_server
       timeout: 300
       runas: root
-  AfterAllowTraffic:
-    - location: scripts/asg.sh
-      timeout: 300
-      runas: root
+  #AfterAllowTraffic:
+   # - location: scripts/asg.sh
+    #  timeout: 300
+     # runas: root
   BeforeBlockTraffic:
     - location: scripts/sleepfile.sh
       timeout: 300
       runas: root
-  AfterBlockTraffic:
-    - location: scripts/oldasg.sh
-      timeout: 300
-      runas: root
+  #AfterBlockTraffic:
+   # - location: scripts/oldasg.sh
+    #  timeout: 300
+     # runas: root
        
