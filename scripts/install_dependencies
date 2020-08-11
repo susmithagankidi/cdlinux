@@ -1,4 +1,5 @@
 #!/bin/bash
 yum install -y httpd
 yum install -y jq
+sleep 70
 
