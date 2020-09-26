@@ -16,8 +16,8 @@ hooks:
       timeout: 300
       runas: root
   AfterAllowTraffic:
-    - location: scripts/bg.sh
-      timeout: 300
+    - location: scripts/sleepfile.sh
+      timeout: 70
       runas: root
   #BeforeBlockTraffic:
    # - location: scripts/sleepfile.sh
